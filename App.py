@@ -15,10 +15,25 @@ def create_app():
     def handle_webhook():
         return handler.handle_incoming_message(request.json)
 
+    @app.route("/health", methods=["GET"])
+    def health_check():
+        return {"status": "healthy", "service": "AI Radiology Assistant"}, 200
+
     return app
 
 if __name__ == "__main__":
-    os.getenv("GEMINI_API_KEY")
-    logging.basicConfig(level=logging.DEBUG)
+    # Verify environment variables are set
+    if not os.getenv("GEMINI_API_KEY"):
+        print("ERROR: GEMINI_API_KEY environment variable is not set")
+        exit(1)
+    
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    )
+    
+    logger = logging.getLogger(__name__)
+    logger.info("Starting AI Radiology Assistant service...")
+    
     app = create_app()
-    app.run(debug=True, port=80)
+    app.run(debug=True, host='0.0.0.0', port=5000)
