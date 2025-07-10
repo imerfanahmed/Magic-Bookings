@@ -1,10 +1,12 @@
 import json
-
 import os
+from dotenv import load_dotenv
 
+
+load_dotenv()
 class Config:
     META_PHONE_ID= os.getenv("META_PHONE_ID")
-    META_API_URL = "https://graph.facebook.com/v18.0/{META_PHONE_ID}/messages"
+    META_API_URL = "https://graph.facebook.com/v18.0/"+ META_PHONE_ID+"/messages"
     META_ACCESS_TOKEN = os.getenv("META_ACCESS_TOKEN")
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
     

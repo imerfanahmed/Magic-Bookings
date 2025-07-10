@@ -1,6 +1,7 @@
 from flask import Flask, request
 import logging
 from WebhookHandlers import WebhookHandler
+import os
 
 def create_app():
     app = Flask(__name__)
@@ -17,6 +18,7 @@ def create_app():
     return app
 
 if __name__ == "__main__":
+    os.getenv("GEMINI_API_KEY")
     logging.basicConfig(level=logging.DEBUG)
     app = create_app()
     app.run(debug=True, port=80)

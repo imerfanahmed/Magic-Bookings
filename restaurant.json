@@ -1,102 +1,102 @@
-{
-  "restaurant": {
-    "name": "Monsoon Rochford",
-    "address": {
-      "street": "45 North Street",
-      "city": "Rochford",
-      "country": "UK",
-      "postal_code": "SS4 1AB"
-    }
-  },
-  "faq": [
-    {
-      "question": "When are you open?",
-      "answer": "Mostly we are open from 11:30 till late. Please check our contact us page for latest update."
+  {
+    "restaurant": {
+      "name": "Monsoon Rochford",
+      "address": {
+        "street": "45 North Street",
+        "city": "Rochford",
+        "country": "UK",
+        "postal_code": "SS4 1AB"
+      }
     },
-    {
-      "question": "Are you open Sundays?",
-      "answer": "Mostly we are open 7 days a week. Please check our contact us page for latest update."
-    },
-    {
-      "question": "Do you have baby changing facilities?",
-      "answer": "We sure do. We are a family restaurant after all!"
-    },
-    {
-      "question": "Do you have High Chairs?",
-      "answer": "Yes. We want your little one to be comfy when dining!"
-    },
-    {
-      "question": "Can I bring my dog?",
-      "answer": "Only if he's a guide dog."
-    },
-    {
-      "question": "What about my cat?",
-      "answer": "Now you're just being silly!"
-    },
-    {
-      "question": "Do you have Wi-Fi?",
-      "answer": "Oh yeah! Please ask our staff for details."
-    },
-    {
-      "question": "Do you have disabled facilities?",
-      "answer": "We do."
-    },
-    {
-      "question": "Can I park my car at your place?",
-      "answer": "Yes, you can."
-    },
-    {
-      "question": "Do you do delivery service?",
-      "answer": "Yes, we offer delivery within a 5-mile radius with a minimum order requirement."
-    },
-    {
-      "question": "How does it work?",
-      "answer": "You order online or call us. You receive the food within 45-50 minutes. You can pay online at the time of order or in cash upon delivery."
-    },
-    {
-      "question": "How long does it take?",
-      "answer": "It might take 40 to 50 minutes depending on your location, order size, and time of order."
-    },
-    {
-      "question": "Can I pay online?",
-      "answer": "If you order online, you will be prompted to pay online."
-    },
-    {
-      "question": "Can I pay via PayPal?",
-      "answer": "Yes, you can."
-    },
-    {
-      "question": "Can I pay cash on delivery?",
-      "answer": "Yes, you can pay cash on delivery."
-    }
-  ],
-  "opening_hours": {
-    "lunch": {
-      "monday": "12:00 - 14:00",
-      "tuesday": "12:00 - 14:00",
-      "wednesday": "12:00 - 14:00",
-      "thursday": "12:00 - 14:00",
-      "friday": "Closed",
-      "saturday": "12:00 - 14:00",
-      "sunday": "12:00 - 14:00"
-    },
-    "dinner": {
-      "monday": "17:30 - 23:30",
-      "tuesday": "17:30 - 23:30",
-      "wednesday": "17:30 - 23:30",
-      "thursday": "17:30 - 23:30",
-      "friday": "17:30 - 23:30",
-      "saturday": "17:30 - 23:30",
-      "sunday": "17:30 - 23:30"
-    },
-    "delivery": {
-      "monday": "17:15 - 22:30",
-      "tuesday": "17:15 - 22:30",
-      "wednesday": "17:15 - 22:30",
-      "thursday": "17:15 - 22:30",
-      "friday": "17:15 - 22:30",
-      "saturday": "17:15 - 22:30",
-      "sunday": "17:15 - 22:30"
+    "faq": [
+      {
+        "question": "When are you open?",
+        "answer": "Mostly we are open from 11:30 till late. Please check our contact us page for latest update."
+      },
+      {
+        "question": "Are you open Sundays?",
+        "answer": "Mostly we are open 7 days a week. Please check our contact us page for latest update."
+      },
+      {
+        "question": "Do you have baby changing facilities?",
+        "answer": "We sure do. We are a family restaurant after all!"
+      },
+      {
+        "question": "Do you have High Chairs?",
+        "answer": "Yes. We want your little one to be comfy when dining!"
+      },
+      {
+        "question": "Can I bring my dog?",
+        "answer": "Only if he's a guide dog."
+      },
+      {
+        "question": "What about my cat?",
+        "answer": "Now you're just being silly!"
+      },
+      {
+        "question": "Do you have Wi-Fi?",
+        "answer": "Oh yeah! Please ask our staff for details."
+      },
+      {
+        "question": "Do you have disabled facilities?",
+        "answer": "We do."
+      },
+      {
+        "question": "Can I park my car at your place?",
+        "answer": "Yes, you can."
+      },
+      {
+        "question": "Do you do delivery service?",
+        "answer": "Yes, we offer delivery within a 5-mile radius with a minimum order requirement."
+      },
+      {
+        "question": "How does it work?",
+        "answer": "You order online or call us. You receive the food within 45-50 minutes. You can pay online at the time of order or in cash upon delivery."
+      },
+      {
+        "question": "How long does it take?",
+        "answer": "It might take 40 to 50 minutes depending on your location, order size, and time of order."
+      },
+      {
+        "question": "Can I pay online?",
+        "answer": "If you order online, you will be prompted to pay online."
+      },
+      {
+        "question": "Can I pay via PayPal?",
+        "answer": "Yes, you can."
+      },
+      {
+        "question": "Can I pay cash on delivery?",
+        "answer": "Yes, you can pay cash on delivery."
+      }
+    ],
+    "opening_hours": {
+      "lunch": {
+        "monday": "12:00 - 14:00",
+        "tuesday": "12:00 - 14:00",
+        "wednesday": "12:00 - 14:00",
+        "thursday": "12:00 - 14:00",
+        "friday": "Closed",
+        "saturday": "12:00 - 14:00",
+        "sunday": "12:00 - 14:00"
+      },
+      "dinner": {
+        "monday": "17:30 - 23:30",
+        "tuesday": "17:30 - 23:30",
+        "wednesday": "17:30 - 23:30",
+        "thursday": "17:30 - 23:30",
+        "friday": "17:30 - 23:30",
+        "saturday": "17:30 - 23:30",
+        "sunday": "17:30 - 23:30"
+      },
+      "delivery": {
+        "monday": "17:15 - 22:30",
+        "tuesday": "17:15 - 22:30",
+        "wednesday": "17:15 - 22:30",
+        "thursday": "17:15 - 22:30",
+        "friday": "17:15 - 22:30",
+        "saturday": "17:15 - 22:30",
+        "sunday": "17:15 - 22:30"
+      }
     }
   }
-}
